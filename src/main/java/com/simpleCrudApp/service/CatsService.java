@@ -28,10 +28,6 @@ public class CatsService {
        return catsRepository.findCatsById(catId);
     }
 
-    public Cats findCatsByName(String catName) throws Exception{
-       return catsRepository.findCatsByName(catName);
-    }
-
     public void deleteCatById(Long catId) throws Exception{
         catsRepository.deleteById(catId);
     }

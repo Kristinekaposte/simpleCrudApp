@@ -13,7 +13,6 @@ public interface CatsRepository extends CrudRepository<Cats,Long> {
     ArrayList<Cats>findAll();
     Cats findCatsById(Long catsId);
 
-    public Cats findCatsByName(String name);
 
 
 
